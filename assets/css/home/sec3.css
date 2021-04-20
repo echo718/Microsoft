@@ -1,0 +1,23 @@
+#sec3{height: auto;}
+.sec3_txt{color: black;position: absolute;top:55px;left:15%;width: 30%;height: auto;text-align: left;}
+#sec3 h1{font-weight: 700;}
+#sec3  p{font-size: 15px;}
+.sec3_txt  div{background-color: black;color: white;width: 30%;height: 40px;line-height: 40px;padding-left: 5%;box-sizing: border-box;}
+
+.sec3_txt div:hover .sec3_sub_1{cursor: pointer;display:inline-block;text-decoration: underline;transform: translateX(-3px);transition: transform 0.5s ease;}
+.sec3_txt div:hover .sec3_sub_2{text-decoration: underline;cursor: pointer;display:inline-block;transform: translateX(3px);transition: transform 0.5s ease;}
+
+@media screen and (min-width:980px) {
+    #sec3 .slide_big{display: block;}
+    #sec3 .slide_small{display:none;}
+}
+
+@media screen and (max-width:980px) {
+    #sec3 .slide_big{display:none;}
+    #sec3 .slide_small{display: block;}
+}
+.sm_txt{color: black;padding:5% 0;text-align: center;background-color: rgba(0,0, 0, 0.2);}
+.sm_txt div{background-color: black;color: white;width: 30%;height: 40px;line-height: 40px;margin:auto;}
+
+.sm_txt div:hover .sec3_sub_1{cursor: pointer;display:inline-block;text-decoration: underline;transform: translateX(-3px);transition: transform 0.5s ease;}
+.sm_txt div:hover .sec3_sub_2{text-decoration: underline;cursor: pointer;display:inline-block;transform: translateX(3px);transition: transform 0.5s ease;}

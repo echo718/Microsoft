@@ -1,0 +1,18 @@
+/* #sec1{width: 100%;height: auto;} */
+
+#nav_search{display: none;width: 0;opacity: 0;}
+#nav_all_dropdown ul a{color:black;text-decoration: none;}
+#sec1_sub3 span:hover{text-decoration: underline;cursor: pointer;}
+#sec1_sub2 span:hover{text-decoration: underline;cursor: pointer;}
+@media screen and (max-width:1200px) {
+    .nav_dispear {display: none;width: 0;opacity: 0;}
+    #nav_dispear{display:  none;width: 0;opacity: 0;}
+   
+    
+}
+@media  screen and (min-width:992px) {
+    nav{width:80%;margin-left: 10%;}
+}
+
+
+#dropdown_menu{visibility: visible!important;}

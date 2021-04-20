@@ -1,0 +1,14 @@
+#sec7{margin-top: 30px;margin-bottom:30px;height: auto;}
+#sec7 div:first-child{font-size: 25px;font-weight: 500;margin-bottom: 2%;}
+
+
+#sec7 img{width:80%;height: auto;margin-bottom: 5%;}
+.sec7_p1{font-weight: 600;font-size: 20px;margin-bottom: 2%;}
+.sec7_p3{color: #005da6;font-weight: 600;margin-top: 4%;}
+
+#sec7_btm{width: 100%;margin: 30px auto;height: 100px;color: rgba(0,0,0,.6);line-height: 100px;}
+#sec7_btm p{float: left;margin-right: 2%;}
+
+@media screen and (max-width: 970px){
+    #sec7{margin-top: 300px;}
+}

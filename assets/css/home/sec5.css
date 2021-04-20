@@ -1,0 +1,10 @@
+
+#sec5{height: auto;}
+#sec5 img{width:100%;height: auto;margin-bottom: 5%;}
+.sec5_p1{font-weight: 600;font-size: 20px;margin-bottom: 2%;}
+.sec5_p2{height: 90px;}
+.sec5_p3{color: #005da6;font-weight: 600;margin-top: 4%;}
+.sec5_sub{padding-left: 2%;box-sizing: border-box;}
+#sec5_p3_spec1 {width: 60%;float: left;}
+#sec5_p3_spec1:hover,#sec5_p3_spec2:hover{text-decoration: underline;cursor: pointer;}
+#sec5_p3{color: #005da6;font-weight: 600;margin-top: 4%;}

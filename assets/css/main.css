@@ -1,0 +1,7 @@
+*{padding: 0;margin: 0;list-style-type: none;text-decoration: none;font-size: 15px;font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+
+/*public format*/
+#sec2 p:hover,#sec4 ul li:hover,.sec5_p3:hover,.sec7_p3:hover {text-decoration: underline;cursor: pointer;}
+
+

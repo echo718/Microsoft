@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec1.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec2.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec3.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec4.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec5.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec6.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec7.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/home/sec8.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+</head>
+<body style="min-width: 500px;overflow-x: hidden;">
+    
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="overflow: visible;height: auto;" >
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="row" id="nav_back">
+                    <!-- logo -->
+                    <div class="col-3 order-3 offset-2 offset-sm-2 offset-lg-0 col-sm-3 order-sm-3 col-lg-1 order-lg-1 pt-2" >
+                        <a class="navbar-brand " href="#">
+                            <!-- <div id="logo_img" style="width:100%;height: auto;"> -->
+                                <img  style="width:100%;height: auto;" src="assets/imgs/18.png" alt="">
+                            <!-- </div> -->
+                        </a>
+                    </div>
+                    <!-- 列表 -->
+                    <div class="col-1 order-1 col-sm-1 order-sm-1 col-lg-6  order-lg-2" id="nav_list">
+                        
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav" id="nav_btn_ul">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#" style="white-space: nowrap;">Microsoft 365</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Office</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Windows</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Surface</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " aria-current="page" href="#">Xbox</a>
+                                    </li> 
+                                    <li class="nav-item" id="nav_sub_secondlastitem">
+                                        <a class="nav-link" href="#">Sale</a>
+                                    </li>
+                                    <li class="nav-item" id="nav_sub_lastitem">
+                                        <a class="nav-link" href="#">Support</a>
+                                    </li>
+                                    <!-- 屏幕小于1200px后dropdown处理 -->
+                                    <li class="nav-item dropdown" id="nav_sub_dropdown">
+                                        
+                                            <div class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="nav-link" href="#" style="display: inline-block;">Sale</a>
+                                            </div>
+                                            
+                                            <ul class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton2">
+                                                <div class="container-fluid" >
+                                                        <div >
+                                                            <a class="ropdown-item nav-link " aria-current="page" href="#">Support</a>
+                                                        </div>
+                                                </div>
+                                            </ul> 
+                                        
+                                    </li>
+                                
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- all Microsoft -->
+                    <div class="col-0 order-7 col-sm-0 order-sm-7 col-lg-2 order-lg-3" id="nav_all_dropdown" >
+                        <div class="dropdown "  id="nav_dispear" >
+                            <div class="dropdown-toggle pt-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                All Microsoft
+                            </div>
+
+                            <!-- ?如何设置屏幕缩小自动消失，点击又出现 -->
+                            <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton1" id="dropdown_menu" style="width: 1200px;margin-left:-70%;background-color: #f2f2f2;left: -300%;padding-bottom: 0;" >
+                                <div class="container" >
+                                    <div class="row" style="font-weight:700;">
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item" >Software</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">PCs & Devices </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Entertainment</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Business</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a href="" class="ropdown-item">Developer & IT </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">other</a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Windows App</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Shop Xbox</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Xbox Game Pass Ultimate</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Microsoft Azure</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">.NET</a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="ropdown-item">Microsoft Rewards</a>
+                                                </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">OneDrive</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Accessories </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Xbox Live Gold </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Microsoft Dynamics 365 </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Visual Studio </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Free downloads & security </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Outlook</a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                            <a class="ropdown-item"> </a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                            <a class="ropdown-item">Xbox games </a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="ropdown-item">Microsoft  365 </a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="ropdown-item">Windows Server</a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="ropdown-item">Education </a>
+                                            </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Skype</a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                            <a class="ropdown-item"> </a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                            <a class="ropdown-item">PC games </a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="ropdown-item">Microsoft  Industry </a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="ropdown-item">Windows Dev Center</a>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <a class="ropdown-item">Git cards </a>
+                                            </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">OneNote</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item"> </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Windows digital games </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Data platform </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Docs</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Licensing </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Microsoft Teams</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item"> </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item">Movies & TV </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Microsoft Advertising<a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Power Apps</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item"> </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item"></a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item"> </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item"> </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">Power Platform<a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item">HoloLens 2</a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item"> </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item"></a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item"> </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                        <a class="ropdown-item"> </a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item"> Shop Business<a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item"></a>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <a class="ropdown-item"> </a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="container" style="padding:0;overflow:hidden;">
+                                    <div class="row " style="height:30px;text-align:center;background-color: gray;">
+                                        <div class="col-lg-12 " >
+                                            <a class="ropdown-item " >View SITEMAP ></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                            </ul> 
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- search -->
+                    <div class="col-1 order-2 offset-1 col-sm-1 offset-sm-0 col-lg-1 order-sm-2 offset-lg-0 order-lg-4  "   onclick="sec1_search()" id="sec1_sub2" > 
+                        <div class="row">
+                            <div class="col-6">
+                                <span class="sec1_sub3_span pt-2 nav_dispear" style="float:left;"  >Search</span>
+                            </div>
+                            <div class="col-6 pt-2 ">
+                                <i class="fa fa-search " ></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                <!-- cart&signin -->
+                    <div class="col-2 order-4 offset-2 col-sm-2 offset-sm-3 col-lg-2 order-sm-4 order-lg-5 offset-lg-0 "    id="sec1_sub3">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="row pt-2">
+                                    <span class="sec1_sub3_span col-6  nav_dispear">Cart </span>
+                                    <i class="fa fa-shopping-cart col-6 pt-1 "></i>
+                                </div>
+                                </div> 
+                            <div class="col-8">
+                                <div class="row pt-2" >
+                                    <span class="sec1_sub3_span col-7 nav_dispear" style="white-space: nowrap;">Sign in </span>
+                                    <i class="fa fa-user-plus col-1 pt-1 " ></i>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- click serach button -->
+                <div class="row" id="nav_front">
+                    <div  id="front_logo" >
+                        <a class="navbar-brand " href="#">
+                            <!-- <div id="logo_img" style="width:100%;height: auto;"> -->
+                                <img  style="width:100%;height: auto;" src="assets/imgs/18.png" alt="">
+                            <!-- </div> -->
+                        </a>
+                    </div>
+                        <!-- 点击Search后激活 -->
+                    <div id="form_search" >
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </nav>
+
+    <section class="container" >
+        <div  id="sec2">
+            <p>up to 70% off select Xbox games.Offers end 15th April.Shop now ></p>
+        </div>  
+      
+        <div class="row no-gutters" style="margin: 0;" id="sec3" >
+
+                <!-- 屏幕大于1200px后出现 -->
+            <div id="carouselExampleIndicators" class="carousel slide slide_big" data-ride="carousel" style="margin: 0;padding: 0;">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                
+                    <div class="carousel-inner"  style="position: relative;">
+                        <div class="carousel-item active" >
+                            <div >
+                                <img style="width: 100%;height: auto;" class="d-block " src="assets/imgs/17.png" alt="Los Angeles">
+                            </div>
+                            
+                            <div class="carousel-caption d-none d-md-block sec3_txt" >
+                                <h1>Surface Laptop Go</h1>
+                                <p>Ulrtra-light</p>
+                                <div >
+                                    <span class="sec3_sub_1">Shop Now </span>
+                                    <span class="sec3_sub_2"> > </span>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="carousel-item" >
+                            <div >
+                                <img style="width: 100%;height: auto;" class="d-block " src="assets/imgs/16.png" alt="Chicago">
+                            </div>
+                            
+                            <div class="carousel-caption d-none d-md-block sec3_txt">
+                                <h1>Surface Pro 7</h1>
+                                <p>Ulrtra-light</p>
+                                <div >
+                                    <span class="sec3_sub_1">Shop Now </span>
+                                    <span class="sec3_sub_2"> > </span>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
+                        <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+            </div>
+            <!-- 屏幕小于1200px后出现 -->
+            <div id="carouselExampleIndicators1" class="carousel slide slide_small" data-ride="carousel" style="margin: 0;padding: 0;">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                </ol>
+            
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" >
+                        <div >
+                            <img style="width: 100%;height: auto;" class="d-block " src="assets/imgs/22.png" alt="Los Angeles">
+                        </div>
+                        
+                        <div class="sm_txt d-block">
+                            <h1>Surface Laptop Go</h1>
+                            <p>Ulrtra-light</p>
+                            <div >
+                                <span class="sec3_sub_1">Shop Now </span>
+                                <span class="sec3_sub_2"> > </span>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item" >
+                        <div >
+                            <img style="width: 100%;height: auto;" class="d-block " src="assets/imgs/21.jpg" alt="Chicago">
+                        </div>
+                        
+                        <div class="sm_txt d-block">
+                        
+                            <h1>Surface Pro 7</h1>
+                            <p>Ulrtra-light</p>
+                            <div >
+                                <span class="sec3_sub_1">Shop Now </span>
+                                <span class="sec3_sub_2"> > </span>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            
+                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev" >
+                    <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+        </div>
+        </div>
+       
+        
+        <div  id="sec4" style="width:100%;padding: 0 3%;margin-top: 30px;margin-bottom: 30px;overflow:auto;">
+            <div style="text-align:center;display: inline-block;margin-left: 4%;">
+                <div>
+                    <img src="assets/imgs/1.PNG"/>
+                </div>
+                 <p >Choose your Microsoft 365</p >
+            </div>
+            <div style="text-align:center;display: inline-block;margin-left: 4%;">
+                <div> <img src="assets/imgs/2.PNG"/></div>
+                 <p >Shop Surface device</p >
+            </div>
+            <div style="text-align:center;display: inline-block;margin-left: 4%;">
+                <div> <img src="assets/imgs/3.PNG"/></div>
+                 <p >Shop Surface device</p >
+            </div>
+            <div style="text-align:center;display: inline-block;margin-left: 4%;">
+                <div>
+                    <img src="assets/imgs/4.PNG"/>
+                </div>
+                <p >Shop Windows 10</p>
+            </div>
+            <div style="text-align:center;display: inline-block;margin-left: 4%;">
+                <div>
+                    <img src="assets/imgs/5.PNG"/>
+                </div>
+                 <p >Shop business</p >
+            </div>
+            <div style="text-align:center;display: inline-block;margin-left: 4%;">
+                <div>
+                    <img src="assets/imgs/6.PNG"/>
+                </div>
+                 <p >Shop for students</p >
+            </div>
+            
+             
+        </div>
+    
+        <div id="sec5" style="padding: 0;">
+            <div class="row " >
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/7.png" />
+                    <div class="sec5_sub" >
+                        <p class="sec5_p1">Surface Laptop 3</p>
+                        <p class="sec5_p2">Express yourself powerfully with a thin, light, and elegant design, faster performance and up to 11.5 hours battery life.</p>
+                        <p class="sec5_p3">Shop now ></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/8.png" />
+                    <div class="sec5_sub">
+                        <p class="sec5_p1">Microsoft 365</p>
+                        <p class="sec5_p2">Premium Office apps, extra cloud storage, advanced security, and more – all in one convenient subscription.</p>
+                        <p id="sec5_p3" >
+                        <span id="sec5_p3_spec1">For up to 6 people ></span>
+                        <span id="sec5_p3_spec2">For 1 people ></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/9.png" />
+                    <div class="sec5_sub">
+                        <p class="sec5_p1">Xbox Game Pass Ultimate</p>
+                        <p class="sec5_p2">Xbox Live Gold and over 100 high-quality console and PC games. Play together with friends and discover your next favourite game.</p>
+                        <p class="sec5_p3">Join now ></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/10.png" />
+                    <div class="sec5_sub">
+                        <p class="sec5_p1">Xbox Series S</p>
+                        <p class="sec5_p2">Next-gen performance in the smallest Xbox ever.</p>
+                        <p class="sec5_p3">Shop now ></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="sec6">
+                <div class="row pl-5" id="sec6_txt" >
+                    <div class="col-md-6 " id="sec6_speci">
+                        <p id="sec6_p1">Never miss a beat</p>
+                        <p>Discover the latest audio from Surface, featuring ultra-comfortable design, immersive sound and all-day battery</p>
+                        <div id="sec6_sub" class="row" >
+                            <div class="col-xl-5 " id="sec6_sub_left" >
+                                <span class="sec6_sub_1">Shop Surface Earbuds </span>
+                                <span class="sec6_sub_2"> > </span>
+                            </div>
+                            <div class="col-xl-1 " ></div>
+                            <div class="col-xl-6" id="sec6_sub_right">
+                                <span class="sec6_sub_1">Shop Surface Headphones 2 </span>
+                                <span class="sec6_sub_2"> > </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" ></div>
+                    
+                </div>
+        </div>
+   
+        <div id="sec7">
+            <div>For business</div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/12.png" />
+                    <div class="sec7_sub">
+                        <p class="sec7_p1">Surface for Business</p>
+                        <p class="sec7_p2">No matter what you do, there’s a Surface to help you do it.</p>
+                        <p class="sec7_p3">Shop now ></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/13.png" />
+                    <div class="sec7_sub">
+                        <p class="sec7_p1">Microsoft 365 for business</p>
+                        <p class="sec7_p2">Stay a step ahead with powerful apps for productivity, connection and security.</p>
+                        <p class="sec7_p3">Shop now ></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/14.png" />
+                    <div class="sec7_sub">
+                        <p class="sec7_p1">Microsoft teams</p>
+                        <p class="sec7_p2">Chat, meet, call and collaborate.</p>
+                        <p class="sec7_p3">Learn more ></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <img src="assets/imgs/15.png" />
+                    <div class="sec7_sub">
+                    <p class="sec7_p1">Introduction Microsoft viva</p>
+                    <p class="sec7_p2">Discover the new employee experience platform designed to help people connect, focus, learn and thrive at work.</p>
+                    <p class="sec7_p3">Learn more ></p>
+                    </div>
+                </div>
+            </div>
+            <div id="sec7_btm">
+                <p>Follow Microsoft</p>
+                <i class="fa fa-facebook-f fa-2x" style="width:30px;height:30px;background-color: darkblue;color:white;text-align: center;border-radius: 2px;margin-right: 1%;"></i>
+                <i class="fa fa-twitter fa-2x" style="width:30px;height:30px;background-color: cornflowerblue;color:white;text-align: center;"></i>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fliud" id="sec8">
+            <div class="row sec8_sub">
+                <div class="col-lg-2 col-sm-4 sec8_txt ">
+                    <div>What's new</div>
+                    <a  href="#" Surface Laptop 4></a>
+                    <a  href="#"Surface Laptop Go></a>
+                    <a href="#">Surface Go 2</a>
+                    <a href="#">Surface Pro X</a>
+                    <a href="#">Surface Book 3</a>
+                    <a href="#">Microsoft 365</a>
+                    <a href="#">Windows 10 apps</a>
+                    <a href="#">HoloLens 2</a>
+                </div>
+                <div class="col-lg-2 col-sm-4 sec8_txt">
+                    <div>Microsoft Store</div>
+                    <a href="#">Account profile</a>
+                    <a href="#">Download Center</a>
+                    <a href="#">Microsoft Store Support</a>
+                    <a href="#">Returns</a>
+                    <a href="#">Order tracking</a>
+                    <a href="#">Microsoft Store Promise</a>
+                </div>
+                <div class="col-lg-2 col-sm-4 sec8_txt">
+                    <div>Education</div>
+                    <a href="#">Microsoft in education</a>
+                    <a href="#">Office for students</a>
+                    <a href="#">Office 365 for schools</a>
+                    <a href="#">Deals for students & parents</a>
+                </div>
+                <div class="col-lg-2 col-sm-4 sec8_txt">
+                    <div>Enterprise</div>
+                    <a HREF="#">Microsoft Azure </a>
+                    <a HREF="#">Microsoft Industry</a>
+                    <a HREF="#">Microsoft partner resources </a>
+                    <a HREF="#">Financial services</a>
+                </div>
+                <div class="col-lg-2 col-sm-4 sec8_txt">
+                    <div>Developer</div>
+                    <a href="#">Microsoft Visual Studio</a>
+                    <a href="#">Developer Center</a>
+                    <a href="#">Channel 9</a>
+                    <a href="#">Office Dev Center</a>
+                </div>
+                <div class="col-lg-2 col-sm-4 sec8_txt">
+                    <div>Company</div>
+                    <a href="#">Careers</a>
+                    <a href="#">Company news</a>
+                    <a href="#">Privacy at Microsoft</a>
+                    <a href="#">Investors</a>
+                </div>
+            </div>
+            <div class="row sec8_down mt-2">
+                <div class="col col-xxl-5">
+                    <i class="fa fa-globe " style="color: black;width: 35px;height: 35px;" ></i>
+                    English (New Zealand)
+                </div>
+                <div class=" row col-xxl-7">
+                    <div class="col-xxl-3" >
+                     
+                    </div>
+                   <div class="row col-xxl-9" >
+                        <div class="col-sm-2 col-xxl-2">Contact</div>
+                        <div class=" col-sm-2 col-xxl-2">Microsoft</div>
+                        <div class="col-sm-3 col-xxl-3">Trademarks Terms of use</div>
+                        <div class="col-sm-2 col-xxl-2">About our ads</div>
+                        <div class="col-sm-3 col-xxl-3">© Microsoft 2021</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <script>
+        window.onresize=function(){resize_window();}
+
+         //设置缩小后sec3&sec6变大
+
+        var body_width=parseInt(document.body.getBoundingClientRect().right);
+        if(body_width<981){
+            document.querySelector("section").className="container-liquid";
+           // document.querySelector("nav").className="container-liquid";
+            document.getElementById("sec2").className="container-liquid";
+            document.getElementById("sec3").className="container-liquid";
+            document.getElementById("sec4").className="container";
+            document.getElementById("sec5").className="container";
+            document.getElementById("sec6").className="container-liquid";
+            document.getElementById("sec7").className="container";
+        }else{
+            document.querySelector("section").className="container";
+           //document.getElementById("test").className="container";
+
+            
+        };
+        
+        //打开界面直接snav_front&back 按钮渲染
+        document.getElementById("nav_back").style="visibility:visible;";
+        document.getElementById("nav_front").style="display:none;width:0;";
+        
+
+        if(document.body.offsetWidth<=1200 && document.body.offsetWidth>=988){
+        document.getElementById("nav_sub_dropdown").style="visibility:visible;";
+        document.getElementById("nav_sub_lastitem").style="display:none;width:0;";
+        document.getElementById("nav_sub_secondlastitem").style="display:none;width:0;";
+    }else{
+        document.getElementById("nav_sub_dropdown").style.display="none";
+        document.getElementById("nav_sub_lastitem").style="visibility:visible;";
+        document.getElementById("nav_sub_secondlastitem").style="visibility:visible;";
+    };
+
+    </script>
+
+
+</body>
+</html>
